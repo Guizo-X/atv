@@ -1,0 +1,22 @@
+.minha-lista {
+    list-style-type: none; 
+    padding: 10px; 
+    margin: 10px; 
+  }
+
+  .minha-lista li {
+    border: 1px solid #ccc; 
+    border-radius: 5px; 
+    padding: 10px; 
+    margin-bottom: 10px; 
+  }
+
+  .minha-lista li:first-child {
+    background-color: #080000; 
+    color: rgb(255, 0, 0); 
+  }
+
+  .minha-lista li:last-child {
+    background-color: #e0e0e0;
+    border: none; 
+  }

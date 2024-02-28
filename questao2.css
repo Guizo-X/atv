@@ -1,0 +1,19 @@
+.retangulo{
+    width: 200px;
+    height: 100px;
+    background-color:blue;
+    border: 2px solid gray;
+    border-radius: 10px;
+    box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.3);
+    padding: 20px;
+    color: white;
+    text-align: center;
+  
+}
+.retangulo h1 {
+    font-size: 15px;
+  }
+
+.retangulo p {
+    font-size: 10px;
+}
