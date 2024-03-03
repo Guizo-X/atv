@@ -4,18 +4,20 @@ body {
   }
 
   .caixa-principal {
-    background-image: url(https://hermes.dio.me/articles/cover/b429cfda-d8f4-4583-a5e7-8e1a2c323dd1.jpg);
+    background-image: url(https://cdn.photoroom.com/v1/assets-cached.jpg?path=backgrounds_v3/black/Photoroom_black_background_extremely_fine_texture_only_black_co_c756a0c0-4895-4275-845b-7a20f085e432.jpg);
     background-size: cover;
     border-radius: 10px;
     padding: 20px;
-    position: relative;
-    height: 587px; 
+    position: absolute;
+    height: 500px; 
+    width: 600px;
+    border-color: #ff0000
   }
 
   .caixa-menor {
     width: calc(50% - 100px);
     height: 300px;
-    border: 1px solid #000;
+    border: 1px solid #fcd707;
     padding: 10px;
     box-sizing: border-box; 
     position: absolute;
