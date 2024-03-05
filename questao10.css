@@ -1,6 +1,10 @@
+body{
+     background-color: lightcoral;
+    }
+
 .card {
     max-width: 300px;
-    border: 1px solid #ddd;
+    border: 3px solid #f30000;
     border-radius: 8px;
     overflow: hidden;
     margin: 20px;
@@ -26,7 +30,7 @@
 }
 
 
-.card button {
+.card a {
     width: 100%;
     padding: 10px;
     background-color: #4CAF50;
@@ -34,14 +38,15 @@
     border: none;
     border-radius: 0 0 8px 8px;
     cursor: pointer;
+    margin-left: 110px;
 }
 
-/* Efeito de hover no botão "Comprar" */
-.card button:hover {
+
+.card a:hover {
     background-color: #45a049;
 }
 
-/* Media query para ajustar o layout em telas menores */
+
 @media (max-width: 768px) {
     .card {
         max-width: 100%;
